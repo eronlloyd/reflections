@@ -1,0 +1,40 @@
+﻿How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+
+I was able to quickly identify the changes and spend more time understanding how they were impacting the code than trying to simply find them all.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+
+It would allow me to have a full picture of how the code evolved over time, including what worked and what didn’t. Plus, it would free up much more time that would be spent manually managing and reviewing revision files.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+
+The advantages of manually creating commits allows the developer to make sure they are satisfied with the changes before committing back to the master repository, so that the updates do not break anything and confuse other developers and can be rolled back quickly to a working state. The disadvantage is that it does take time away from coding so when you’re working on commits, whereas the automatic saves while writing in Google Docs is never a distraction from your concentration on the work.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+
+VCSs like Git understand that most coding work involves multiple files when making any change to a system, so all the files must be treated as part of a single transaction when making commits to reflect the intended change. Google Docs treats every document as an independent object, whose state does not rely on other documents and thus only needs to manage its own revisions.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+
+git diff shows the actual changes in the code between revisions of a file, while git log displays the commit history of the file.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+
+It gives you more freedom to make changes, test them out, and reverse them to the last working state if they break something. This creates space to experiment and learn from the code more easily.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+
+I’m going to use it for several Django projects I’m working on, as well as some data analysis stuff I’m experimenting with.
