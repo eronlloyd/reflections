@@ -13,3 +13,16 @@ to the original author's repository. Clones are general copies of another reposi
 include the code and Git history of the original repository. Branches are splits off of a code base, still connected to
 the same repository, where changes will not impact the master or other branches.
 
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+A: You can see how your local changes compare to the remote code, even if the network is offline.
+
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A: I would have to use a number of different tools, including FTP, email, possibly some other project management
+tools. It would definitely be harder.
+
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each
+approach have?
+A: Working in master is much simpler, because there isn't a need to track other branches and merge changes back and
+forth while working on the code. For an uncomplicated project with only one author, this makes sense to simply use
+master for tracking changes. However, for a complicated project with multiple authors, multiple maintenance and
+development releases, experimentation or major code migrations, using branches to do work makes much more sense.
